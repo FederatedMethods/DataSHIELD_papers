@@ -18,7 +18,7 @@ resources:
   - repository: puma_source
     type: github
     endpoint: puma_gh_deployment
-    name: OllyButters/puma
+    name: FederatedMethods/puma
     ref: refs/tags/v2.11
   
   # Where all the configs are (private repo)
@@ -222,7 +222,7 @@ jobs:
 
     #####################################################################################
     # Commit the generated HTML files to the gh-pages. This makes them available
-    # (after some caching time) at https://ollybutters.github.io/puma/$(project_short_name)
+    # (after some caching time) at https://ollybutters.github.io/puma_web/$(project_short_name)
   - bash: |
 
       # Git needs some config set to be able to push to a repo. 
