@@ -32,7 +32,7 @@ resources:
   - repository: puma_web
     type: github
     endpoint: puma_gh_deployment
-    name: federatedmethods/papers
+    name: federatedmethods/DataSHIELD_papers
     ref: gh-pages
 
   # Cache repo (private repo)
